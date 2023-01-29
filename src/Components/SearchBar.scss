@@ -1,0 +1,88 @@
+.searchInputs {
+    display: flex;
+    align-items: center;
+    padding: 0 33px;
+    width: 1100px;
+    height: 115px;
+    background-color: rgb(67, 62, 92);
+    gap: 24px;
+    border: 5px solid rgb(52, 47, 79);
+    border-top: 6px solid 	rgb(15, 14, 21);
+    border-bottom: none;
+}
+     
+.searchInputs input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 26px;
+    width: 100%;
+    color: rgb(231, 231, 231);
+}
+
+.dataResult {
+    display: flex-start;
+    background: rgb(241, 241, 241);
+    border: 6px solid rgb(47, 44, 75);
+    border-top: rgb(70, 63, 102);
+ }
+    
+    
+.dataItem {
+    padding: 60px 30px;
+    display: flex;
+    width: 100%;
+    height: 42px;
+    align-items: center;
+ }
+                  
+.dataItem p {
+    margin: 0px;
+}
+
+.dataItem .name {
+    font-family: 'Varela Round', sans-serif;
+     position: absolute;
+     align-self: flex-end;
+     display: flex;
+     font-size: x-large;
+     margin-left: 8px;
+ }
+    
+.dataItem .phone-container {
+     align-self: flex-start;
+     flex: 1 1 20%;
+     margin-left: 2px;
+     margin-top: 10px;
+     display: flex;
+     align-items: center;
+     padding-left: 7px;
+}
+                   
+ .dataItem .email-container {
+     flex: 1 1 20%;
+     display: flex;
+     margin-left: 1px;
+     margin-top: 43px;
+     padding-left: 7px;
+     align-items: center;
+}
+
+        
+.dataItem .policyNumber-container {
+     flex: 9 1 30%;
+     margin-top: 8px;
+     display: flex;
+     align-self: flex-start;
+     align-items: center;
+ }    
+
+  .dataResult .dataItem:nth-child(even) {
+     background-color: 	rgb(231, 231, 231);
+}
+  
+  .dataResult .dataItem:nth-child(odd) {
+     background-color: rgb(246, 246, 246);
+}
+
+
