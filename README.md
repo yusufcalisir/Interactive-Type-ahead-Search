@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+**Interactive Type-ahead Search with REACT** 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://media.giphy.com/media/iLepseRynQgG6nJhf3/giphy.gif)
+
 
 ## Available Scripts
 
